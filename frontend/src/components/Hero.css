@@ -1,0 +1,30 @@
+.hero-section {
+  height: 100vh;
+  background-color: #f8f4f2;
+  color: #222;
+  position: relative;
+}
+
+.hero-heading {
+  font-size: 3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 2;
+}
+
+.hero-image {
+  width: 220px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.highlight {
+  color: #f97316;
+  font-weight: bold;
+}
+
+.overlay-text {
+  color: transparent;
+  -webkit-text-stroke: 1.5px #222;
+}
